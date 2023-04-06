@@ -14,27 +14,27 @@ function generatePassword() {
                 alert ('Please make sure your password is from 8 to 128 numbers')
                 return 'generatePassword'
             }
-
+//confirms if the users wants lowercase
    var lowerCase = confirm ('Do you want to use LOWERCASE letters in your password ? For yes click "okay", for no click "cancle"');   
             if (lowerCase = true) {
 
             }
-
+//confirms if the users wants uppercase
    var  upperCase = confirm ('Do you want to use UPPER letters in your password ? For yes click "okay", for no click "cancle"');
             if (upperCase = true ) {
 
             }
-   
+//confirms if the users wants numbers   
    var numbers = confirm ('Do you want to us NUMBERS in your password ? For yes click "okay", for no click "cancle" ')
             if (numbers = true ) {
 
             }
-
+//confirms if the users wants special characters
    var specialchar = confirm ('Do you want to use SPECIAL CHARACTERAS in your password ? For yes click "okay", for no click "cancle" ')
-   //just to show answer on console log
-        
+            if ( specialchar = true ) {
 
- //uppercase,lowercase,special characters,numbers
+            }
+        
 
  // validate input 
 
