@@ -3,7 +3,7 @@ var lowerCase = "abcdefghijklmnopqurstuvwxyz";
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "1234567890";
 var specialChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
-
+var temp = [];
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -43,22 +43,23 @@ function generatePassword() {
 //confirms if the users wants special characters
    var specialChar = confirm ('Do you want to use SPECIAL CHARACTERAS in your password ? For yes click "okay", for no click "cancle" ')
             if ( specialChar = true ) {
-                for (var i = 0; specialChar.length; i++;){
+                for (var i = 0; specialChar.length; i++); {
                     temp.push(specialChar[i]);
-                
                 }
             }
-        
+            
+                console.log(temp);
 
- // validate input 
-
- // display password on the page.
+                
+                for (var i = 0; i< length; i++){
+                    passwordBase = passwordBase + temp[Math.floor(Math.random() * temp.length)];
+                }
+ 
 
 
 // what shows up in the box
  return 'generator password will go here'
 }
-
 
 // Write password to the #password input
 function writePassword() {
