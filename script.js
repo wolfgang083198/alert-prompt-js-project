@@ -1,4 +1,9 @@
 // Assignment code here
+var lowerCase = (abcdefghijklmnopqurstuvwxyz);
+var upperCase = (ABCDEFGHIJKLMNOPQRSTUVWXYZ);
+var numbers = (1234567890);
+var specialChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -30,8 +35,8 @@ function generatePassword() {
 
             }
 //confirms if the users wants special characters
-   var specialchar = confirm ('Do you want to use SPECIAL CHARACTERAS in your password ? For yes click "okay", for no click "cancle" ')
-            if ( specialchar = true ) {
+   var specialChar = confirm ('Do you want to use SPECIAL CHARACTERAS in your password ? For yes click "okay", for no click "cancle" ')
+            if ( specialChar = true ) {
 
             }
         
