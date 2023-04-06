@@ -4,7 +4,7 @@ var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "1234567890";
 var specialChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 var temp = [];
-
+var passwordBase = ""
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -54,11 +54,8 @@ function generatePassword() {
                 for (var i = 0; i< length; i++){
                     passwordBase = passwordBase + temp[Math.floor(Math.random() * temp.length)];
                 }
- 
-
-
 // what shows up in the box
- return 'generator password will go here'
+ return passwordBase;
 }
 
 // Write password to the #password input
