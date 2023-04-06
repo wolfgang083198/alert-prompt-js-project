@@ -6,7 +6,7 @@ This Password Generator is not completed because I was not able to Figure out ho
 
 ## Description
 
-This webpage is a Password genorator. When you click on the "Generate Password" button you will be prompt with a few questions that will then be used to create a random password using JavaScript. 
+I was given instructions along with existing code to finish creating a password generator that displays prompts and displays a random password based on your selections. When you click on the "Generate Password" button you will be prompt with a few questions that will then be used to create a random password using JavaScript.  
 
 ![screenshot of prompt](./prompt.png)
 
@@ -24,5 +24,9 @@ https://www.youtube.com/watch?v=x4HUaiazDes&t=61s
 
 https://www.youtube.com/watch?v=XOROiF-phnE
 used for understanding for loops
+
+Code was given and taken from...
+https://github.com/coding-boot-camp/friendly-parakeet
+
 ## License
 N/A
