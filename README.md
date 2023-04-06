@@ -7,7 +7,7 @@
 
 This webpage is a Password genorator. When you click on the "Generate Password" button you will be prompt with a few questions that will then be used to create a random password using JavaScript. 
 
-![screenshot of prompt](/images/prompt.png)
+![screenshot of prompt](./images/prompt.png)
 
 ## Installation
 N/A
