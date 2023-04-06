@@ -1,7 +1,8 @@
 ## alert-prompt-js-project
 
-## resources
 
+## Generator error
+This Password Generator is not completed because I was not able to Figure out how to completly finish it. Although I was not able to completly finish the Acceptance Criteria I hope that this will be able to be used to help someone get on the right track if trying to figure out how to do the same thing.
 
 ## Description
 
@@ -21,6 +22,7 @@ I used the following videos to help me understand how to create a password gener
 
 https://www.youtube.com/watch?v=x4HUaiazDes&t=61s
 
-
+https://www.youtube.com/watch?v=XOROiF-phnE
+used for understanding for loops
 ## License
 N/A
