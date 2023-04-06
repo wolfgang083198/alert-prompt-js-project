@@ -1,7 +1,7 @@
 // Assignment code here
-var lowerCase = (abcdefghijklmnopqurstuvwxyz);
-var upperCase = (ABCDEFGHIJKLMNOPQRSTUVWXYZ);
-var numbers = (1234567890);
+var lowerCase = "abcdefghijklmnopqurstuvwxyz";
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var numbers = "1234567890";
 var specialChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
 
@@ -17,17 +17,21 @@ function generatePassword() {
         console.log (length);
             if (length < 8 || length > 128){
                 alert ('Please make sure your password is from 8 to 128 numbers')
-                return 'generatePassword'
+                return generatePassword();
             }
 //confirms if the users wants lowercase
    var lowerCase = confirm ('Do you want to use LOWERCASE letters in your password ? For yes click "okay", for no click "cancle"');   
             if (lowerCase = true) {
-
+                for ( var i = 0; i < lowerCase.length; i++) {
+                    temp.push(lowerCase[i]);
+                }
             }
 //confirms if the users wants uppercase
    var  upperCase = confirm ('Do you want to use UPPER letters in your password ? For yes click "okay", for no click "cancle"');
             if (upperCase = true ) {
-
+                for (var i = 0; i < upperCase.length; i++){
+                    temp.push(upperCase[i]);
+                }
             }
 //confirms if the users wants numbers   
    var numbers = confirm ('Do you want to us NUMBERS in your password ? For yes click "okay", for no click "cancle" ')
