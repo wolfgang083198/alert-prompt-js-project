@@ -36,12 +36,17 @@ function generatePassword() {
 //confirms if the users wants numbers   
    var numbers = confirm ('Do you want to us NUMBERS in your password ? For yes click "okay", for no click "cancle" ')
             if (numbers = true ) {
-
+                for (var i = 0; numbers.length; i++){
+                    temp.push(numbers[i]);
+                }
             }
 //confirms if the users wants special characters
    var specialChar = confirm ('Do you want to use SPECIAL CHARACTERAS in your password ? For yes click "okay", for no click "cancle" ')
             if ( specialChar = true ) {
-
+                for (var i = 0; specialChar.length; i++;){
+                    temp.push(specialChar[i]);
+                
+                }
             }
         
 
