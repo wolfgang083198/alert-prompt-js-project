@@ -1,5 +1,26 @@
 ## alert-prompt-js-project
 
 ## resources
-//https://www.youtube.com/watch?v=x4HUaiazDes&t=61s
-I used this video to help understand how to get started creating a password generator.
+
+
+## Description
+
+This webpage is a Password genorator. When you click on the "Generate Password" button you will be prompt with a few questions that will then be used to create a random password using JavaScript. 
+
+![screenshot of prompt]/images/body.png)
+
+## Installation
+N/A
+
+## Usage
+
+
+
+## Credits
+I used the following videos to help me understand how to create a password generator.
+
+https://www.youtube.com/watch?v=x4HUaiazDes&t=61s
+
+
+## License
+N/A

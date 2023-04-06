@@ -1,12 +1,14 @@
 // Assignment code here
-var lowerCase = "abcdefghijklmnopqurstuvwxyz";
+var lowerCase = "abcdefghijklmnopqrftuvwxyz";
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "1234567890";
-var specialChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+var specialChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 var temp = [];
-var passwordBase = ""
-// Get references to the #generate element
+var passwordBase = "";
 var generateBtn = document.querySelector("#generate");
+
+// Get references to the #generate element
+
 
 //adding generarePassword func
 function generatePassword() {
